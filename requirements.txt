@@ -1,3 +1,4 @@
 flask
 experta
-frozendict>=2.3.4
+frozendict==1.2
+
