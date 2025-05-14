@@ -1,0 +1,911 @@
+[
+  {
+    "category": "Dificultad para respirar",
+    "conditions": [
+      "Dificultad para respirar",
+      "Dolor al pecho",
+      "Dolor en brazo izquierdo o mandíbula"
+    ],
+    "result": "pre-infarto"
+  },
+  {
+    "category": "Dificultad para respirar",
+    "conditions": [
+      "Dificultad para respirar",
+      "Dolor al pecho",
+      "No dolor en brazo izquierdo o mandíbula",
+      "Dolor al hacer esfuerzo"
+    ],
+    "result": "insuficiencia cardiaca"
+  },
+  {
+    "category": "Dificultad para respirar",
+    "conditions": [
+      "Dificultad para respirar",
+      "Dolor al pecho",
+      "No dolor en brazo izquierdo o mandíbula",
+      "No dolor al hacer esfuerzo",
+      "Tos persistente",
+      "No fiebre"
+    ],
+    "result": "bronquitis"
+  },
+  {
+    "category": "Dificultad para respirar",
+    "conditions": [
+      "Dificultad para respirar",
+      "Dolor al pecho",
+      "No dolor en brazo izquierdo o mandíbula",
+      "No dolor al hacer esfuerzo",
+      "Tos persistente",
+      "Fiebre"
+    ],
+    "result": "neumonía"
+  },
+  {
+    "category": "Dificultad para respirar",
+    "conditions": [
+      "Dificultad para respirar",
+      "Dolor al pecho",
+      "No dolor en brazo izquierdo o mandíbula",
+      "No dolor al hacer esfuerzo",
+      "No tos persistente",
+      "No fiebre"
+    ],
+    "result": "asma"
+  },
+  {
+    "category": "Dificultad para respirar",
+    "conditions": [
+      "Dificultad para respirar",
+      "No dolor al pecho",
+      "Tos persistente",
+      "No fiebre",
+      "Sudoración nocturna",
+      "Hinchazón de extremidades"
+    ],
+    "result": "tuberculosis"
+  },
+  {
+    "category": "Dificultad para respirar",
+    "conditions": [
+      "Dificultad para respirar",
+      "No dolor al pecho",
+      "Tos persistente",
+      "No fiebre",
+      "Sudoración nocturna",
+      "No hinchazón de extremidades"
+    ],
+    "result": "insuficiencia cardiaca"
+  },
+  {
+    "category": "Dificultad para respirar",
+    "conditions": [
+      "Dificultad para respirar",
+      "No dolor al pecho",
+      "No tos persistente",
+      "No fiebre",
+      "Presión arterial alta"
+    ],
+    "result": "hipertensión arterial"
+  },
+  {
+    "category": "Dificultad para respirar",
+    "conditions": [
+      "Dificultad para respirar",
+      "No dolor al pecho",
+      "No tos persistente",
+      "No fiebre",
+      "Palpitaciones irregulares"
+    ],
+    "result": "arritmia cardiaca"
+  },
+  {
+    "category": "Dificultad para respirar",
+    "conditions": [
+      "No dolor al pecho",
+      "No fatiga",
+      "No sudoración excesiva y temblores"
+    ],
+    "result": "asma"
+  },
+  {
+    "category": "Dificultad para respirar",
+    "conditions": [
+      "No dolor al pecho",
+      "No fatiga",
+      "Sudoración excesiva y temblores"
+    ],
+    "result": "bajón de azúcar"
+  },
+  {
+    "category": "Dificultad para respirar",
+    "conditions": [
+      "No dolor al pecho",
+      "No fatiga",
+      "No sudoración excesiva y temblores"
+    ],
+    "result": "ataque de pánico"
+  },
+  {
+    "category": "Fiebre",
+    "conditions": ["fiebre", "tos", "tos seca", "dificultad para respirar", "dolor en pecho", "escalofrío"],
+    "result": "neumonía"
+  },
+  {
+    "category": "Fiebre",
+    "conditions": ["fiebre", "tos", "tos seca", "dificultad para respirar", "dolor en pecho", "no escalofrío"],
+    "result": "bronquitis"
+  },
+  {
+    "category": "Fiebre",
+    "conditions": ["fiebre", "tos", "tos seca", "dificultad para respirar", "no dolor en pecho"],
+    "result": "asma"
+  },
+  {
+    "category": "Fiebre",
+    "conditions": ["fiebre", "tos", "tos seca", "no dificultad para respirar"],
+    "result": "gripa o influenza"
+  },
+  {
+    "category": "Fiebre",
+    "conditions": ["fiebre", "tos", "no tos seca", "tos con flema", "flema amarilla o verde", "fiebre prolongada"],
+    "result": "neumonía"
+  },
+  {
+    "category": "Fiebre",
+    "conditions": ["fiebre", "tos", "no tos seca", "tos con flema", "flema amarilla o verde", "no fiebre prolongada"],
+    "result": "bronquitis"
+  },
+  {
+    "category": "Fiebre",
+    "conditions": ["fiebre", "tos", "no tos seca", "tos con flema", "no flema amarilla o verde"],
+    "result": "gripa o influenza"
+  },
+  {
+    "category": "Fiebre",
+    "conditions": ["fiebre", "tos", "no tos seca", "no tos con flema", "tos con sangre", "pérdida de peso"],
+    "result": "tuberculosis"
+  },
+  {
+    "category": "Fiebre",
+    "conditions": ["fiebre", "tos", "no tos seca", "no tos con flema", "tos con sangre", "no pérdida de peso", "escalofríos"],
+    "result": "neumonía"
+  },
+  {
+    "category": "Fiebre",
+    "conditions": ["fiebre", "tos", "no tos seca", "no tos con flema", "tos con sangre", "no pérdida de peso", "no escalofríos", "dolor al toser"],
+    "result": "infección pulmonar severa"
+  },
+  {
+    "category": "Dolor de pecho",
+    "conditions": [
+      "Dolor al pecho",
+      "Mareo o debilidad",
+      "El dolor lo tienes en el brazo izquierdo"
+    ],
+    "result": "pre-infarto"
+  },
+  {
+    "category": "Dolor de pecho",
+    "conditions": [
+      "Dolor al pecho",
+      "Mareo o debilidad",
+      "No El dolor lo tienes en el brazo izquierdo",
+      "Tienes palpitaciones irregulares"
+    ],
+    "result": "arritmia cardiaca"
+  },
+  {
+    "category": "Dolor de pecho",
+    "conditions": [
+      "Dolor al pecho",
+      "Mareo o debilidad",
+      "No El dolor lo tienes en el brazo izquierdo",
+      "No Tienes palpitaciones irregulares",
+      "Tienes sudoración excesiva"
+    ],
+    "result": "ataque de pánico"
+  },
+  {
+    "category": "Dolor de pecho",
+    "conditions": [
+      "Dolor al pecho",
+      "Mareo o debilidad",
+      "No El dolor lo tienes en el brazo izquierdo",
+      "No Tienes palpitaciones irregulares",
+      "No Tienes sudoración excesiva",
+      "No Tienes temblores"
+    ],
+    "result": "hipertensión arterial"
+  },
+  {
+    "category": "Dolor de pecho",
+    "conditions": [
+      "Dolor al pecho",
+      "Mareo o debilidad",
+      "No El dolor lo tienes en el brazo izquierdo",
+      "No Tienes palpitaciones irregulares",
+      "No Tienes sudoración excesiva",
+      "Tienes temblores"
+    ],
+    "result": "bajón de azúcar"
+  },
+  {
+    "category": "Dolor de pecho",
+    "conditions": [
+      "Dolor al pecho",
+      "No Mareo o debilidad",
+      "Náuseas",
+      "El dolor de pecho es insoportable"
+    ],
+    "result": "pre-infarto"
+  },
+  {
+    "category": "Dolor de pecho",
+    "conditions": [
+      "Dolor al pecho",
+      "No Mareo o debilidad",
+      "Náuseas",
+      "No El dolor de pecho es insoportable",
+      "Reflujo al comer"
+    ],
+    "result": "gastritis"
+  },
+  {
+    "category": "Dolor de pecho",
+    "conditions": [
+      "Dolor al pecho",
+      "No Mareo o debilidad",
+      "Náuseas",
+      "No El dolor de pecho es insoportable",
+      "No Reflujo al comer"
+    ],
+    "result": "hipertensión arterial"
+  },
+  {
+    "category": "Dolor abdominal",
+    "conditions": [
+      "Dolor abdominal",
+      "Fiebre",
+      "Vómito",
+      "Dolor en la parte inferior derecha"
+    ],
+    "result": "apendicitis"
+  },
+  {
+    "category": "Dolor abdominal",
+    "conditions": [
+      "Dolor abdominal",
+      "Fiebre",
+      "Vómito",
+      "No Dolor en la parte inferior derecha",
+      "Dolor después de comer",
+      "Sensación de ardor"
+    ],
+    "result": "úlcera gástrica"
+  },
+  {
+    "category": "Dolor abdominal",
+    "conditions": [
+      "Dolor abdominal",
+      "Fiebre",
+      "Vómito",
+      "No Dolor en la parte inferior derecha",
+      "Dolor después de comer",
+      "No Sensación de ardor"
+    ],
+    "result": "gastritis"
+  },
+  {
+    "category": "Dolor abdominal",
+    "conditions": [
+      "Dolor abdominal",
+      "Fiebre",
+      "Vómito",
+      "No Dolor en la parte inferior derecha",
+      "No Dolor después de comer",
+      "Diarrea"
+    ],
+    "result": "gastroenteritis"
+  },
+  {
+    "category": "Dolor abdominal",
+    "conditions": [
+      "Dolor abdominal",
+      "Fiebre",
+      "Vómito",
+      "No Dolor en la parte inferior derecha",
+      "No Dolor después de comer",
+      "No Diarrea",
+      "Hinchazón abdominal"
+    ],
+    "result": "síndrome de intestino irritable"
+  },
+  {
+    "category": "Dolor abdominal",
+    "conditions": [
+      "Dolor abdominal",
+      "Fiebre",
+      "Vómito",
+      "No Dolor en la parte inferior derecha",
+      "No Dolor después de comer",
+      "No Diarrea",
+      "No Hinchazón abdominal",
+      "Dolor al orinar"
+    ],
+    "result": "infección urinaria"
+  },
+  {
+    "category": "Dolor abdominal",
+    "conditions": [
+      "Dolor abdominal",
+      "Fiebre",
+      "Vómito",
+      "No Dolor en la parte inferior derecha",
+      "No Dolor después de comer",
+      "No Diarrea",
+      "No Hinchazón abdominal",
+      "No Dolor al orinar"
+    ],
+    "result": "cólico común"
+  },
+  {
+    "category": "Mareo o debilidad",
+    "conditions": [
+      "Mareo o debilidad",
+      "Dolor en el pecho",
+      "Dolor insoportable"
+    ],
+    "result": "Pre-infarto"
+  },
+  {
+    "category": "Mareo o debilidad",
+    "conditions": [
+      "Mareo o debilidad",
+      "Dolor en el pecho",
+      "Dolor insoportable",
+      "No Palpitaciones irregulares"
+    ],
+    "result": "Arritmia cardíaca"
+  },
+  {
+    "category": "Mareo o debilidad",
+    "conditions": [
+      "Mareo o debilidad",
+      "Dolor en el pecho",
+      "Dolor insoportable",
+      "No Palpitaciones irregulares",
+      "Sudoración excesiva"
+    ],
+    "result": "Ataque de pánico"
+  },
+  {
+    "category": "Mareo o debilidad",
+    "conditions": [
+      "Mareo o debilidad",
+      "Dolor en el pecho",
+      "Dolor insoportable",
+      "No Palpitaciones irregulares",
+      "No Sudoración excesiva",
+      "No Temblores"
+    ],
+    "result": "Hipertensión arterial"
+  },
+  {
+    "category": "Mareo o debilidad",
+    "conditions": [
+      "Mareo o debilidad",
+      "No Dolor en el pecho",
+      "Pérdida de conciencia",
+      "Fue repentino"
+    ],
+    "result": "Arritmia cardíaca"
+  },
+  {
+    "category": "Mareo o debilidad",
+    "conditions": [
+      "Mareo o debilidad",
+      "No Dolor en el pecho",
+      "Pérdida de conciencia",
+      "No Fue repentino",
+      "Antes dolor en el pecho"
+    ],
+    "result": "Pre-infarto"
+  },
+  {
+    "category": "Mareo o debilidad",
+    "conditions": [
+      "Mareo o debilidad",
+      "No Dolor en el pecho",
+      "Pérdida de conciencia",
+      "No Fue repentino",
+      "No Antes dolor en el pecho",
+      "Estrés"
+    ],
+    "result": "Ataque de pánico"
+  },
+  {
+    "category": "Mareo o debilidad",
+    "conditions": [
+      "Mareo o debilidad",
+      "No Dolor en el pecho",
+      "Pérdida de conciencia",
+      "No Fue repentino",
+      "No Antes dolor en el pecho",
+      "No Estrés",
+      "No Sudoración excesiva"
+    ],
+    "result": "Hipertensión arterial"
+  },
+  {
+    "category": "Mareo o debilidad",
+    "conditions": [
+      "Mareo o debilidad",
+      "No Dolor en el pecho",
+      "No Pérdida de conciencia",
+      "No Sudoración excesiva"
+    ],
+    "result": "Hipertensión arterial"
+  },
+    {
+    "category": "Náuseas o vómito",
+    "conditions": [
+      "Náuseas o vómito",
+      "Dolor abdominal",
+      "Dolor abdominal insoportable"
+    ],
+    "result": "Apendicitis"
+  },
+  {
+    "category": "Náuseas o vómito",
+    "conditions": [
+      "Náuseas o vómito",
+      "Dolor abdominal",
+      "No Dolor abdominal insoportable",
+      "Acidez o ardor"
+    ],
+    "result": "Gastritis"
+  },
+  {
+    "category": "Náuseas o vómito",
+    "conditions": [
+      "Náuseas o vómito",
+      "Dolor abdominal",
+      "No Dolor abdominal insoportable",
+      "No Acidez o ardor",
+      "Orina con sangre",
+      "No Dolor en la parte baja de la espalda"
+    ],
+    "result": "Infección urinaria"
+  },
+  {
+    "category": "Náuseas o vómito",
+    "conditions": [
+      "Náuseas o vómito",
+      "Dolor abdominal",
+      "No Dolor abdominal insoportable",
+      "No Acidez o ardor",
+      "Orina con sangre",
+      "Dolor en la parte baja de la espalda"
+    ],
+    "result": "Cólico renal"
+  },
+  {
+    "category": "Náuseas o vómito",
+    "conditions": [
+      "Náuseas o vómito",
+      "Dolor abdominal",
+      "No Dolor abdominal insoportable",
+      "No Acidez o ardor",
+      "No Orina con sangre"
+    ],
+    "result": "Problema digestivo / requiere exámenes"
+  },
+  {
+    "category": "Náuseas o vómito",
+    "conditions": [
+      "Náuseas o vómito",
+      "No Dolor abdominal",
+      "Dolor de cabeza",
+      "Sensibilidad a la luz o ruido"
+    ],
+    "result": "Migraña"
+  },
+  {
+    "category": "Náuseas o vómito",
+    "conditions": [
+      "Náuseas o vómito",
+      "No Dolor abdominal",
+      "Dolor de cabeza",
+      "No Sensibilidad a la luz o ruido",
+      "Fiebre o rigidez en el cuello"
+    ],
+    "result": "Meningitis"
+  },
+  {
+    "category": "Náuseas o vómito",
+    "conditions": [
+      "Náuseas o vómito",
+      "No Dolor abdominal",
+      "Dolor de cabeza",
+      "No Sensibilidad a la luz o ruido",
+      "No Fiebre o rigidez en el cuello",
+      "Golpe en la cabeza"
+    ],
+    "result": "Conmoción cerebral / vigilancia 24h"
+  },
+  {
+    "category": "Náuseas o vómito",
+    "conditions": [
+      "Náuseas o vómito",
+      "No Dolor abdominal",
+      "Dolor de cabeza",
+      "No Sensibilidad a la luz o ruido",
+      "No Fiebre o rigidez en el cuello",
+      "No Golpe en la cabeza",
+      "Visión borrosa",
+      "No Dificultad para hablar"
+    ],
+    "result": "Hipertensión arterial"
+  },
+  {
+    "category": "Náuseas o vómito",
+    "conditions": [
+      "Náuseas o vómito",
+      "No Dolor abdominal",
+      "Dolor de cabeza",
+      "No Sensibilidad a la luz o ruido",
+      "No Fiebre o rigidez en el cuello",
+      "No Golpe en la cabeza",
+      "Visión borrosa",
+      "Dificultad para hablar"
+    ],
+    "result": "Accidente cerebrovascular"
+  },
+  {
+    "category": "Náuseas o vómito",
+    "conditions": [
+      "Náuseas o vómito",
+      "No Dolor abdominal",
+      "Dolor de cabeza",
+      "No Sensibilidad a la luz o ruido",
+      "No Fiebre o rigidez en el cuello",
+      "No Golpe en la cabeza",
+      "No Visión borrosa",
+      "Mareo o debilidad",
+      "Sudoración o temblores"
+    ],
+    "result": "Bajón de azúcar"
+  },
+  {
+    "category": "Náuseas o vómito",
+    "conditions": [
+      "Náuseas o vómito",
+      "No Dolor abdominal",
+      "Dolor de cabeza",
+      "No Sensibilidad a la luz o ruido",
+      "No Fiebre o rigidez en el cuello",
+      "No Golpe en la cabeza",
+      "No Visión borrosa",
+      "Mareo o debilidad",
+      "No Sudoración o temblores",
+      "Sol o calor"
+    ],
+    "result": "Golpe de calor"
+  },
+  {
+    "category": "Náuseas o vómito",
+    "conditions": [
+      "Náuseas o vómito",
+      "No Dolor abdominal",
+      "Dolor de cabeza",
+      "No Sensibilidad a la luz o ruido",
+      "No Fiebre o rigidez en el cuello",
+      "No Golpe en la cabeza",
+      "No Visión borrosa",
+      "Mareo o debilidad",
+      "No Sudoración o temblores",
+      "No Sol o calor",
+      "No Sustancia tóxica"
+    ],
+    "result": "Migraña"
+  },
+  {
+    "category": "Náuseas o vómito",
+    "conditions": [
+      "Náuseas o vómito",
+      "No Dolor abdominal",
+      "Dolor de cabeza",
+      "No Sensibilidad a la luz o ruido",
+      "No Fiebre o rigidez en el cuello",
+      "No Golpe en la cabeza",
+      "No Visión borrosa",
+      "Mareo o debilidad",
+      "No Sudoración o temblores",
+      "No Sol o calor",
+      "Sustancia tóxica"
+    ],
+    "result": "Intoxicación"
+  },
+  {
+    "category": "Pérdida de conciencia",
+    "conditions": [
+        "Pérdida de conciencia",
+        "Mareo o debilidad",
+        "Latidos irregulares",
+        "No Dolor en el pecho antes",
+        "No Dolor de pecho que se repite"
+    ],
+    "result": "Arritmia cardíaca"
+    },
+    {
+        "category": "Pérdida de conciencia",
+        "conditions": [
+            "Pérdida de conciencia",
+            "Mareo o debilidad",
+            "Latidos irregulares",
+            "Dolor en el pecho antes",
+            "No Dolor de pecho que se repite"
+        ],
+        "result": "Insuficiencia cardíaca"
+    },
+    {
+        "category": "Pérdida de conciencia",
+        "conditions": [
+            "Pérdida de conciencia",
+            "Mareo o debilidad",
+            "Latidos irregulares",
+            "Dolor en el pecho antes",
+            "Dolor de pecho que se repite"
+        ],
+        "result": "Infarto miocárdico"
+    },
+    {
+        "category": "Pérdida de conciencia",
+        "conditions": [
+            "Pérdida de conciencia",
+            "Mareo o debilidad",
+            "Latidos irregulares",
+            "No Dolor en el pecho antes",
+            "No Sudor o ansiedad antes"
+        ],
+        "result": "Ataque de pánico"
+    },
+    {
+        "category": "Pérdida de conciencia",
+        "conditions": [
+            "Pérdida de conciencia",
+            "Mareo o debilidad",
+            "Latidos irregulares",
+            "No Dolor en el pecho antes",
+            "No Sudor o ansiedad antes",
+            "Sudoración, visión borrosa o confusión",
+            "Temblores o hambre"
+        ],
+        "result": "Bajón de azúcar"
+    },
+    {
+        "category": "Pérdida de conciencia",
+        "conditions": [
+            "Pérdida de conciencia",
+            "Mareo o debilidad",
+            "Latidos irregulares",
+            "No Dolor en el pecho antes",
+            "No Sudor o ansiedad antes",
+            "Sudoración, visión borrosa o confusión",
+            "No Temblores ni hambre",
+            "No Sustancia en exceso"
+        ],
+        "result": "Insuficiencia cardíaca"
+    },
+    {
+        "category": "Pérdida de conciencia",
+        "conditions": [
+            "Pérdida de conciencia",
+            "Mareo o debilidad",
+            "Latidos irregulares",
+            "No Dolor en el pecho antes",
+            "No Sudor o ansiedad antes",
+            "Sudoración, visión borrosa o confusión",
+            "No Temblores ni hambre",
+            "Sustancia en exceso"
+        ],
+        "result": "Intoxicación"
+    },
+    {
+        "category": "Pérdida de conciencia",
+        "conditions": [
+            "Pérdida de conciencia",
+            "Mareo o debilidad",
+            "Latidos irregulares",
+            "No Dolor en el pecho antes",
+            "No Sudor o ansiedad antes",
+            "No Sudoración ni visión borrosa o confusión"
+        ],
+        "result": "Accidente cerebrovascular"
+    },
+    {
+    "category": "Brote en la piel",
+    "conditions": [
+        "Brote en la piel",
+        "Dolor muscular",
+        "Fiebre reciente"
+    ],
+    "result": "Dengue"
+    },
+    {
+        "category": "Brote en la piel",
+        "conditions": [
+            "Brote en la piel",
+            "Dolor muscular",
+            "No Fiebre reciente",
+            "Alergia a una sustancia",
+            "No Tocado sustancia"
+        ],
+        "result": "Revisar evolución por 24h"
+    },
+    {
+        "category": "Brote en la piel",
+        "conditions": [
+            "Brote en la piel",
+            "Dolor muscular",
+            "No Fiebre reciente",
+            "Alergia a una sustancia",
+            "Tocado sustancia"
+        ],
+        "result": "Alergia"
+    },
+    {
+        "category": "Brote en la piel",
+        "conditions": [
+            "Brote en la piel",
+            "Dolor muscular",
+            "No Fiebre reciente",
+            "No Alergia a sustancia",
+            "Inflamación"
+        ],
+        "result": "Alergia"
+    },
+    {
+        "category": "Brote en la piel",
+        "conditions": [
+            "Brote en la piel",
+            "Dolor muscular",
+            "No Fiebre reciente",
+            "No Alergia a sustancia",
+            "No Inflamación"
+        ],
+        "result": "Evaluar otras decisiones con estos síntomas"
+    },
+    {
+        "category": "Brote en la piel",
+        "conditions": [
+            "Brote en la piel",
+            "No Dolor muscular",
+            "Náuseas",
+            "Fiebre reciente"
+        ],
+        "result": "Dengue"
+    },
+    {
+        "category": "Brote en la piel",
+        "conditions": [
+            "Brote en la piel",
+            "No Dolor muscular",
+            "Náuseas",
+            "No Fiebre reciente",
+            "Alergia a una sustancia",
+            "No Tocado sustancia"
+        ],
+        "result": "Revisar evolución por 24h"
+    },
+    {
+        "category": "Brote en la piel",
+        "conditions": [
+            "Brote en la piel",
+            "No Dolor muscular",
+            "Náuseas",
+            "No Fiebre reciente",
+            "Alergia a una sustancia",
+            "Tocado sustancia"
+        ],
+        "result": "Alergia"
+    },
+    {
+        "category": "Brote en la piel",
+        "conditions": [
+            "Brote en la piel",
+            "No Dolor muscular",
+            "Náuseas",
+            "No Fiebre reciente",
+            "No Alergia a sustancia"
+        ],
+        "result": "Evaluar otras decisiones con estos síntomas"
+    },
+    {
+    "category": "Accidente o golpe",
+    "conditions": [
+        "Sufriste un accidente o golpe",
+        "Herida abierta",
+        "Herida presenta sangrado y es profunda",
+        "No Signos de infección"
+    ],
+    "result": "Limpiar herida y revisar evolución"
+    },
+    {
+        "category": "Accidente o golpe",
+        "conditions": [
+            "Sufriste un accidente o golpe",
+            "Herida abierta",
+            "Herida presenta sangrado y es profunda",
+            "Signos de infección"
+        ],
+        "result": "Tiene una herida infectada"
+    },
+    {
+        "category": "Accidente o golpe",
+        "conditions": [
+            "Sufriste un accidente o golpe",
+            "Herida abierta",
+            "Herida presenta sangrado y es profunda",
+            "No Signos de infección",
+            "Herida hinchada y forma anormal",
+            "No Estructura ósea expuesta"
+        ],
+        "result": "Dislocación. No es una enfermedad. Debe pasar por traumatología"
+    },
+    {
+        "category": "Accidente o golpe",
+        "conditions": [
+            "Sufriste un accidente o golpe",
+            "Herida abierta",
+            "Herida presenta sangrado y es profunda",
+            "No Signos de infección",
+            "Herida hinchada y forma anormal",
+            "Estructura ósea expuesta"
+        ],
+        "result": "Fractura abierta"
+    },
+    {
+        "category": "Accidente o golpe",
+        "conditions": [
+            "Sufriste un accidente o golpe",
+            "Herida abierta",
+            "Herida presenta sangrado y es profunda",
+            "No Signos de infección",
+            "No Herida hinchada y forma anormal"
+        ],
+        "result": "Esguince. No es una enfermedad. Revisar evolución por 24h y otros posibles síntomas"
+    },
+    {
+        "category": "Accidente o golpe",
+        "conditions": [
+            "Sufriste un accidente o golpe",
+            "Herida no abierta",
+            "Herida hinchada y forma anormal",
+            "No Puede mover la extremidad"
+        ],
+        "result": "Fractura cerrada"
+    },
+    {
+        "category": "Accidente o golpe",
+        "conditions": [
+            "Sufriste un accidente o golpe",
+            "Herida no abierta",
+            "Herida hinchada y forma anormal",
+            "Puede mover la extremidad"
+        ],
+        "result": "Dislocación. No es una enfermedad. Pasar por traumatología"
+    },
+    {
+        "category": "Accidente o golpe",
+        "conditions": [
+            "Sufriste un accidente o golpe",
+            "Herida no abierta",
+            "Herida hinchada y forma anormal",
+            "No Puede mover la extremidad"
+        ],
+        "result": "Esguince. No es una enfermedad. Revisar por 24h y otros posibles síntomas"
+    }
+]
