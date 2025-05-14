@@ -1,10 +1,9 @@
 services:
-  - name: sistema-experto
-    type: web
-    runtime: python
-    plan: free
-    region: oregon
-    buildCommand: |
-      pip install --upgrade pip
-      pip install -r requirements.txt
-    startCommand: gunicorn app:app
+  - type: web
+    name: sistema-experto
+    runtime: python  # Especificamos el entorno de Python
+    buildCommand: "pip install -r requirements.txt"  # O usa poetry si prefieres
+    startCommand: "gunicorn app:app"
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.9"

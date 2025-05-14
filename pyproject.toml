@@ -6,7 +6,7 @@ authors = [
     {name = "Camilo Gomez",email = "camigomezbernal@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.9,<3.10"
 dependencies = [
     "experta (==1.9.4)",
     "frozendict (==1.2)",
