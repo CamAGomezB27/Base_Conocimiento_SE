@@ -17,8 +17,6 @@ class Sintomas(Fact):
         sudor_escalofrios              = Field(bool, mandatory=False)
         fatiga                         = Field(bool, mandatory=False)
         mareo_debilidad                = Field(bool, mandatory=False)
-        mareo_debilidad                = Field(bool, mandatory=False)
-        mareo_debilidad                = Field(bool, mandatory=False)
         palpitaciones_irregulares     = Field(bool, mandatory=False)
         latidos_irregulares            = Field(bool, mandatory=False)
         presion_alta                   = Field(bool, mandatory=False)
