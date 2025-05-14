@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: sistema-experto
-    runtime: python  # Especificamos el entorno de Python
-    buildCommand: "pip install -r requirements.txt"  # O usa poetry si prefieres
-    startCommand: "gunicorn app:app"
-    envVars:
-      - key: PYTHON_VERSION
-        value: "3.9"
